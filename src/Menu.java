@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Menu {
     Registrar registro = new Registrar();
-    Mostrar mostrar = new Mostrar();
+    //Mostrar mostrar = new Mostrar();
     Actualizar actualizar=new Actualizar();
 
     public void opciones() {
@@ -27,7 +27,7 @@ public class Menu {
                 case 2:
                     System.out.println("Mostrar Registro");
                     System.out.println("------------------");
-                    mostrar.mostrarRegistro(registro);
+                    //mostrar.mostrarRegistro(registro);
                     break;
                 case 3:
                     System.out.println("Eliminar todos los registros");

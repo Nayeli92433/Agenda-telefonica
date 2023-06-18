@@ -1,12 +1,9 @@
 import java.util.Scanner;
 
 public class Ingresar {
-    private Numero num;
-
-
+    private Numero num = new Numero();;
 
     public  void datos(Scanner scanner){
-        num= new Numero();
         System.out.println("----------INGRESE LOS DATOS----------");
         System.out.println("Ingrese el nombre:");
         num.setNombre(scanner.next());
